@@ -1,0 +1,262 @@
+body, .container {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.panel {
+    position: relative;
+    padding: 40px 10px;
+}
+
+
+.onboarding {
+    height: 100vh;
+}
+
+/* onboarding */
+.onboarding
+.panel {
+
+    height: calc(100vh - 80px);
+}
+
+.board-map {
+    display: flex;
+    justify-content: center;
+}
+
+.board-map div {
+    margin: 0 10px;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    border: 1px solid #F44336;
+}
+
+.board-map .active {
+    background-color: #F44336;
+}
+
+.next {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.onboarding
+.controls{
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+}
+
+.board {
+    text-align: center;
+}
+
+.board img {
+    width: 250px;
+    margin-top: 40px;
+}
+
+.bnt-next {
+    width: 114px;
+}
+
+/* Auth */
+
+
+.authorization{
+
+}
+
+.authorization
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #2196F3;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.authorization
+form{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.authorization
+form .btn-form{
+    width: 100%;
+}
+
+.refs-form{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.refs-form div {
+    margin-top: 10px;
+}
+
+.cabinet {
+    position: relative;
+    height: 100vh;
+}
+
+.cabinet
+.navbar {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #f4970e;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabinet
+.navbar span {
+    padding-left: 20px;
+}
+
+
+.navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar
+.navbar-bnt img {
+    margin-right: 20px;
+}
+
+.cabinet
+.avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+.cabinet
+.panel{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    height: calc(100vh - 130px);
+    overflow-y: auto;
+}
+
+.menu_bottom{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f4970e;
+    
+}
+
+.menu_bottom ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu_bottom ul li {
+    list-style-type: none;
+    padding: 10px;
+    height: 24px;
+    transition: all .3s;
+}
+
+.menu_bottom ul li:hover {
+    background-color: #867965bd;
+}
+
+.active {
+    background-color: #f4970e;
+}
+
+.modal {
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    display: none;
+}
+
+.modal-body {
+   
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.modal-body button {
+    width: 100%;
+
+}
+
+/* friends-block */
+
+.friends {
+
+}
+
+.friends-list {
+    margin: 0;
+    padding: 0;
+}
+
+.friends-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    border-bottom: 1px solid gray;
+}
+
+.friends-info {
+    margin-left: 20px;
+}
+
+.friends-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.friends-info h3 {
+    margin: 0;
+}
+
+
+.online {
+    color: rgb(86, 126, 175); 
+}
+
+.offline {
+    color: rgb(134, 134, 134);
+}
